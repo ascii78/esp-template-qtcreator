@@ -23,19 +23,21 @@ comes with the standard hello_world provided in the esp-idf library. To use it:
     in terminal"
 7. Check if clean and build works in the menu and sidebar, run should now default to
    a make clean and run the serial monitor in a terminal.
+8. Remove the .git directory if you're planning to use your own.
 
-## Notes/TODO:
+## Screenshot
+
+![screenshot](https://user-images.githubusercontent.com/1138654/43473749-4c3cd0d6-94f1-11e8-877d-586074fff738.png)
+
+## Notes/TODO
 
 - Most of the .pro file has been borrowed from the
   [platformio](http://www.platformio.org) project. Since we may be using
   a newer version of esp-idf the INCLUDEPATHS might need to change.
-
 - If you add a component you manually need to add it in the .pro file,
   an example is included at the bottom of the file. 
-
 - If you get sdkconfig.h not found error try running `make menuconfig`
   since that creates build/include/sdkconfig.h
-
 - There is a
   [cmake](https://docs.espressif.com/projects/esp-idf/en/feature-cmake/api-guides/build-system.html)
   version of esp-idf in the works, and QtCreator natively support cmake
