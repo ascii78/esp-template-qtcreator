@@ -1,3 +1,8 @@
+# This project is now read only 
+
+ESP-IDF now supports CMake, please use CMake instead of template below.
+For more information see this article: http://blog.zolder.org/blog/esp-idf/
+
 # Template esp-idf project for Qt Creator
 
 This directory is a template for Qt creator to initialize an almost empty project, it
